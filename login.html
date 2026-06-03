@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grão Real Café - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <header>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="Logo.png" alt="Logo Grão Real Café" class="logo-img">
+                <h2>GRÃO <span>REAL</span></h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="produto.html">Cardápio</a></li>
+                    <li><a href="login.html">Entrar</a></li>
+                    <li><a href="new.html">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h1>Conectar à Conta</h1>
+            
+            <form id="form-login" action="index.html" method="GET">
+                <div class="form-group">
+                    <label for="email-login">E-mail do Utilizador</label>
+                    <input type="email" id="email-login" name="email" required placeholder="exemplo@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password-login">Palavra-passe</label>
+                    <input type="password" id="password-login" name="password" required placeholder="Insira a sua palavra-passe">
+                </div>
+
+                <button type="submit" class="btn-block">Iniciar Sessão</button>
+            </form>
+            
+            <div class="form-footer">
+                <p>Não tem uma conta do Clube de Fidelidade? <a href="new.html">Crie uma aqui</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Grão Real Café. Trabalho Académico - Todos os direitos reservados.</p>
+    </footer>
+
+    </body>
+</html>
+
